@@ -13,7 +13,7 @@ export default function Search() {
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8" fill-rule="evenodd" d="M10.0491 10.9707H11.2761C14.2045 10.9707 15.6686 9.72917 15.6686 7.24607C15.6686 6.0211 15.3824 5.13547 14.8098 4.58918C14.2372 4.02634 13.321 3.74493 12.0613 3.74493C11.5706 3.74493 10.8998 3.77804 10.0491 3.84425V10.9707ZM10 3.07449L12.7975 3C16.5112 3 18.368 4.41536 18.368 7.24607C18.368 8.47108 17.9508 9.48089 17.1165 10.2755C16.2985 11.0535 15.2351 11.4425 13.9263 11.4425C13.8118 11.4425 13.6073 11.426 13.3128 11.3929V11.4425C15.0633 11.6908 16.2658 12.2702 16.9201 13.1807C17.5909 14.0746 17.9263 15.4486 17.9263 17.3026C17.9263 18.4614 18.139 19.1319 18.5643 19.314C18.7606 19.4464 19.0306 19.5126 19.3741 19.5126C19.734 19.5126 20.1921 19.4049 20.7483 19.1898V19.8105C19.8813 20.1251 19.0878 20.2824 18.368 20.2824C16.7647 20.2824 15.775 19.5871 15.3987 18.1965C15.3006 17.8323 15.2433 17.3192 15.2269 16.657C15.2269 15.9949 15.2024 15.4072 15.1533 14.894C15.1042 14.3809 14.9897 13.8677 14.8098 13.3545C14.4008 12.2454 13.2719 11.6908 11.4233 11.6908H10.0491V3.84425L10 3.07449Z" fill="white" />
           </svg> */}
 
-          <div class="text-2xl ml-8 w-full font-bold text-center tracking-wide">Ragakosh</div>
+          <div class="text-2xl ml-8 sm:ml-2 sm- w-full font-bold sm:text-left text-center tracking-wide">Ragakosh</div>
           <svg onClick={_ => setMenuVisible(true)} class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
           </svg>
@@ -26,7 +26,7 @@ export default function Search() {
         </div>
       </header>
 
-      <div class="absolute w-full flex mt-32 z-0 bg-white">
+      <div class="absolute w-full flex mt-32 z-0 bg-white select-none">
         <ul class="w-full">
           <li class="p-4 pl-6 text-lg font-bold">Asa</li>
           <li class="p-4 pl-6 text-lg font-bold">Bilawal</li>
